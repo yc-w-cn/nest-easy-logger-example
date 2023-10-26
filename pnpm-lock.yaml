@@ -15,8 +15,8 @@ dependencies:
     specifier: ^10.0.0
     version: 10.2.7(@nestjs/common@10.2.7)(@nestjs/core@10.2.7)
   '@yc-w-cn/nest-easy-logger':
-    specifier: ^1.0.2
-    version: 1.0.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: ^1.0.3
+    version: 1.0.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
   reflect-metadata:
     specifier: ^0.1.13
     version: 0.1.13
@@ -1522,8 +1522,8 @@ packages:
     resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
     dev: true
 
-  /@yc-w-cn/nest-easy-logger@1.0.2(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-lZ6uE9f8BwJhO2VShifVj6CT/GaioKR+4H2oinv4K6e5OwjVBVSLmJPTsHhBAXkXNmbz0vY1jsRp78+63ruGHA==}
+  /@yc-w-cn/nest-easy-logger@1.0.3(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-cDX/nZHWBtb+oilDcTYMo/d3agA46J08vSN4ZGD1/HdcUE+dfZztTojuEMA7p61Yson/evc+mfI/boH3tQx3KA==}
     dependencies:
       '@nestjs/common': 10.2.7(reflect-metadata@0.1.13)(rxjs@7.8.1)
     transitivePeerDependencies:
