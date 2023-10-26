@@ -26,7 +26,7 @@ export class AppController {
     const customLogger = new EasyLogger(AppController.name);
     customLogger.setContentFormatter(
       new DefaultContentFormatter({
-        relaceEmptyValue: true,
+        replaceEmptyValue: true,
       }),
     );
 
