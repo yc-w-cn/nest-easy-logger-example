@@ -8,7 +8,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  BasicUse(): string {
+  basicUse(): string {
     // Output Key
     this.logger.log('hi');
 
@@ -22,7 +22,7 @@ export class AppController {
   }
 
   @Get('custom')
-  CustomUse(): string {
+  customUse(): string {
     const customLogger = new EasyLogger(AppController.name);
     customLogger.setContentFormatter(
       new DefaultContentFormatter({
